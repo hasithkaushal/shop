@@ -38,23 +38,11 @@ body {
   justify-content: center;
   padding: 20px;
 }
-@media screen and (max-width: 500px) {
-  #product-container {
-    padding: 5px;
-    gap: 5px;
-  }
-}
 .product-card-bg {
   background-color: #27374d;
   width: 25rem;
   padding: 10px;
   border-radius: 30px;
-}
-@media screen and (max-width: 500px) {
-  .product-card-bg {
-    width: 17rem;
-    padding: 0;
-  }
 }
 .product-card {
   position: relative;
@@ -68,11 +56,6 @@ body {
   height: 180px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
-}
-@media screen and (max-width: 500px) {
-  .card-img {
-    height: 150px;
-  }
 }
 .deal {
   position: absolute;
@@ -162,4 +145,22 @@ hr {
 }
 #see-more i {
   margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  #product-container {
+    padding: 5px;
+    gap: 5px;
+  }
+  .product-card-bg {
+    width: 17rem;
+    padding: 0;
+  }
+  .card-img {
+    height: 150px;
+  }
+  #products-header > h1 {
+    font-size: 25px;
+    margin: 0 6px 5px 6px;
+  }
 }
