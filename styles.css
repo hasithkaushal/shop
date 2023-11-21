@@ -27,7 +27,7 @@ html {
 }
 @media screen and (max-width: 500px) {
   .product-card-bg {
-    width: 15rem;
+    width: 18rem;
     margin: 5px;
   }
 }
